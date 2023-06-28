@@ -23,9 +23,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Make changes to pull request
-        run: date +%s > hello
-
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v5
